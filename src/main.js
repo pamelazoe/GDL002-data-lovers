@@ -21,4 +21,12 @@ function pokeTemplate(pokemon) {
 document.getElementById('root').innerHTML=`
     ${pokeData.map(pokeTemplate).join("")}
 `
-  
+let typeButtonsContainer = document.getElementById("type-buttons");
+let typeButtons = ["Grass", "Poison", "Fire", "Ice", "Flying", "Psychic", "Water", "Ground", "Rock", "Electric", "Bug", "Fighting", "Fairy", "Ghost", "Dark", "Steel", "Dragon", "Normal"];
+for (let i in typeButtons) {
+    let pokeTypeButtons = document.createElement("button");
+    pokeTypeButtons.value = typeButtons[i];
+    pokeTypeButtons.id = typeButtons[i];
+    pokeTypeButtons.innerHTML = typeButtons[i];
+    typeButtonsContainer.appendChild(pokeTypeButtons);
+}
