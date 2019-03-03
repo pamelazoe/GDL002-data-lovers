@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-       
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"/>
+
     <header>
         <div class="contenedor">
-            <img src="poke2-02.png"/> 
-            <img src="Group.png">
+            <img src="poke2-02.png" alt="poke2-02"/>
+            <img src="Group.png" alt="Group">
             <input type="checkbox" id="barraMenu">
             <label class="icon-menu" for="barraMenu"></label>
             <nav class="menu">
-            <a href="https://youtu.be/AV6p4Fq9BKY" target="_blank">¿Cómo se juega?</a>
+                <a href="https://youtu.be/va6NFk1fFX4?t=48" target="_blank">¿Cómo se juega?</a>
             </nav>
         </div>
     </header>
 </head>
 
 <body>
-       <br><br><br> <br><select id='type-select'>
-                <option id=type-pokemon selected="true" disabled="disabled">Tipos de Pokemon</option>
-                </select>
-                <select id='sort-select'>
-                    <option id=sort-pokemon selected="true" disabled="disabled">Ordenar por</option>
-                    </select>
-                <div id="root">
-            
-                </div>
-                <div id="show-types"> </div>
-                    <script src="./data/pokemon/pokemon.js"></script>
-                    <script src="data.js"></script>
-                    <script src="main.js"></script>
-            </body>
-            
-            </html>
+    <br><br><br> <br><select id="type-select">
+        <option id="type-pokemon" selected disabled>Tipos de Pokemon</option>
+    </select>
+    <select id="sort-by">
+        <option id="sort-pokemon" selected disabled>Ordenar</option>
+        <option value="a-Z">Alfabético A-Z</option>
+        <option value="Z-a">Alfabético Z-A</option>
+        <option value="001-151">Número 001-151</option>
+        <option value="151-001">Número 151-001</option>
+    </select>
+    <div id="root">
+
+    </div>
+    <div id="show-types"> </div>
+    <script src="./data/pokemon/pokemon.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
