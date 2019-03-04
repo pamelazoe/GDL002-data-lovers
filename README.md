@@ -15,8 +15,6 @@ Dar a conocer al usuario los pokemones de la región Kanto, sus características
 **Prototipados de alta fidelidad**
 [Prototipo Figma](https://www.figma.com/proto/BZYDY1qfg8lAvVS7KLIne2ie/Untitled?node-id=122:6&scaling=scale-down)
 ![Para móvil](https://i.imgur.com/k4hoT39.png)
-![Inspiración](https://i.imgur.com/Jh2ae9N.png)
-
 ## Testeo con usuarios
 
 Se hizo una prueba preliminar con dos usuarios ajenos al bootcamp en una versión beta de la web app y dieron como resultado dos modificaciones:
